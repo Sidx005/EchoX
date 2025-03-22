@@ -1,0 +1,79 @@
+@import "tailwindcss";
+*{
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+.nav{
+  background-color: rgba(0, 0, 0, 0.238);
+  /* padding: 10px; */
+}
+.heading2{
+  text-shadow: 0px 0px 20px #ffffff;
+}
+img{
+  pointer-events: none;
+}
+.ring1{
+  animation: rotate 5s  infinite;
+}.ring2{
+  animation: rotate2 5s  infinite;
+}
+@keyframes rotate{
+  0%{
+    transform: skewY(0deg);
+  }
+  50%{
+    transform: skewY(12deg);
+    rotate: -80deg;
+  }
+  100%{
+    transform: skewY(0deg);
+  }
+}@keyframes rotate2{
+  0%{
+    transform: skewY(0deg);
+  }
+  50%{
+    transform: skewY(12deg);
+    rotate: 80deg;
+  }
+  100%{
+    transform: skewY(0deg);
+    rotate: 0deg;
+
+  }
+}
+
+.carousel::-webkit-scrollbar{
+display: none;
+}
+
+
+.overlay {
+  content: "";
+position: absolute;
+
+top: 0;
+left: 0;
+  height: 100%; /* Match the height of the parent */
+  background-repeat: no-repeat;
+  width: 100%; /* Match the width of the parent */
+  background-image: url('/Wave.png');
+ background-size: cover; /* Adjust the size of the dots and spacing */
+  z-index: -1; 
+}
+button{
+  cursor: pointer;
+}
+table{
+  border: 1px solid black;
+  /* border-collapse:; */
+}
+th, td{
+  border: 1px solid black;
+  padding: 10px;
+}
+th{
+  background-color: rgb(134, 182, 255);
+  color: #ffffff;
+}
