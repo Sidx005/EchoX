@@ -45,7 +45,7 @@ const Showcase = () => {
             loop
             playsInline
             className="h-full w-full object-cover object-center rounded-md"
-            src="/Pods.mkv"
+            src="/HeadPhoneShowcase.mp4"
           ></video>
 
           {/* Hover Overlay */}
