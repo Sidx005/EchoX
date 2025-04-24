@@ -15,7 +15,8 @@ const Showcase = () => {
             autoPlay
             loop
             className="w-full h-full object-cover rounded-lg"
-            src="/Pods.mkv"
+            muted
+            src="/HeadPhoneShowcase.mp4"
           ></video>
 
           {/* Text Overlay */}
@@ -44,6 +45,7 @@ const Showcase = () => {
             autoPlay
             loop
             playsInline
+            muted
             className="h-full w-full object-cover object-center rounded-md"
             src="/HeadPhoneShowcase.mp4"
           ></video>
