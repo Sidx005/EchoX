@@ -14,7 +14,7 @@ const Showcase = () => {
           <video
             autoPlay
             loop
-            className="w-full h-full object-cover rounded-lg"
+            className="w-full h-full object-cover  pointer-events-none select-none rounded-lg"
             muted
             src="/HeadPhoneShowcase.mp4"
           ></video>
@@ -46,7 +46,7 @@ const Showcase = () => {
             loop
             playsInline
             muted
-            className="h-full w-full object-cover object-center rounded-md"
+            className="h-full  pointer-events-none select-none w-full object-cover object-center rounded-md"
             src="/HeadPhoneShowcase.mp4"
           ></video>
 
